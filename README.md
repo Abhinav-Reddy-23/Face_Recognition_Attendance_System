@@ -38,3 +38,7 @@ python register_face.py
 
 Run system:
 python attendance_system.py
+## 📸 Screenshots
+
+### Output
+![Face Recognition](face_recognition.png)
