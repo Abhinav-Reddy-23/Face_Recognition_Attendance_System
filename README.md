@@ -1,56 +1,40 @@
-\# Face Recognition Attendance System
+# Face Recognition Attendance System
 
+## About the Project
+This project is a Python-based attendance system that uses face recognition through webcam. It automatically detects and identifies registered faces and marks attendance in a CSV file.
 
+## How it Works
+1. Register faces using webcam images.
+2. System creates face encodings from stored images.
+3. Webcam detects faces in real time.
+4. If a known face is found, attendance is marked.
 
-\## 🚀 Project Description
+## Features
+- Face detection using webcam
+- Face recognition using face_recognition library
+- Automatic attendance marking
+- CSV file storage
+- Real-time processing
 
-This project uses OpenCV and face recognition to automatically mark attendance using webcam.
+## Technologies Used
+- Python
+- OpenCV
+- face_recognition
+- NumPy
+- Pandas
 
+## Project Files
+- register_face.py → Register new faces
+- attendance_system.py → Main recognition system
+- face_detector.py → Face detection helper
+- attendance.csv → Stores attendance records
 
+## How to Run
+Install dependencies:
+pip install -r requirements.txt
 
-\## 🧠 Features
+Register faces:
+python register_face.py
 
-\- Face detection using webcam
-
-\- Face recognition
-
-\- Automatic attendance marking
-
-\- CSV file storage
-
-\- Real-time processing
-
-
-
-\## 🛠️ Technologies Used
-
-\- Python
-
-\- OpenCV
-
-\- face\_recognition
-
-\- NumPy
-
-\- Pandas
-
-
-
-\## ▶️ How to Run
-
-1\. Install requirements:
-
-&#x20;  pip install -r requirements.txt
-
-
-
-2\. Run face registration:
-
-&#x20;  python register\_face.py
-
-
-
-3\. Run attendance system:
-
-&#x20;  python attendance\_system.py
-
+Run system:
+python attendance_system.py
