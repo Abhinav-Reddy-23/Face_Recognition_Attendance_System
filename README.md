@@ -38,7 +38,9 @@ python register_face.py
 
 Run system:
 python attendance_system.py
-## 📸 Screenshots
+## Screenshot
 
-### Output
+The system successfully detects and recognizes faces in real time using webcam input. Once a registered face is identified, the system marks attendance automatically.
+
+### Face Recognition Output
 ![Face Recognition](face_recognition.png)
